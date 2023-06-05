@@ -11,7 +11,7 @@ from contextlib import contextmanager
 
 issue_template_dir = "./issues/"
 
-base_url = os.environ.get("jira_host")  # "https://hamisht.atlassian.net"
+base_url = os.environ.get("jira_host")
 
 api_key = os.environ.get("jira_api_key")
 
@@ -161,10 +161,10 @@ def main():
             print(banner)
             print("Creating a template from an issue...")
             # Add your code for creating a template from an issue here
-            
+
             correct = False
 
-            while not correct: 
+            while not correct:
                 issue_name = input("Please enter the issue name to clone: ")
                 template_name = input(
                     "Please enter a name for the template (leave blank to use the issue name): ")

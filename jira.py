@@ -7,7 +7,7 @@ import platform
 
 # Helpfull explanation on how to format custom fields https://community.atlassian.com/t5/Jira-Software-articles/How-to-set-select-lists-single-multiple-cascading-radio-or/ba-p/1686871
 
-base_url = os.environ.get("jira_host")  # "https://hamisht.atlassian.net"
+base_url = os.environ.get("jira_host")
 
 api_key = os.environ.get("jira_api_key")
 

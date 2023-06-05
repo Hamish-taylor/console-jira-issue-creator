@@ -1,4 +1,5 @@
 {
+    "type": "custom",
     "fields": {
         "assignee": {
             "id": "5ed8fed33d527a0ac3a7615b"
@@ -21,8 +22,18 @@
             "type": "doc",
             "version": 1
         },
-        "Work type": {
-            "id": "Growth"
+        "customfields": {
+            "Work type": {
+                "value": "Growth"
+            },
+            "Workzzzz": {
+                "value": "Eng"
+            },
+            "test": [
+                {
+                    "value": "game"
+                }
+            ]
         },
         "issuetype": {
             "id": "Task"

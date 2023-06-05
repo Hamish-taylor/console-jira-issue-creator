@@ -1,0 +1,64 @@
+{
+    "expand": "projects",
+    "projects": [
+        {
+            "self": "https://hamisht.atlassian.net/rest/api/3/project/10000",
+            "id": "10000",
+            "key": "BIG",
+            "name": "bigboard",
+            "avatarUrls": {
+                "48x48": "https://hamisht.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10406",
+                "24x24": "https://hamisht.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10406?size=small",
+                "16x16": "https://hamisht.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10406?size=xsmall",
+                "32x32": "https://hamisht.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10406?size=medium"
+            },
+            "issuetypes": [
+                {
+                    "self": "https://hamisht.atlassian.net/rest/api/3/issuetype/10001",
+                    "id": "10001",
+                    "description": "A small, distinct piece of work.",
+                    "iconUrl": "https://hamisht.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+                    "name": "Task",
+                    "untranslatedName": "Task",
+                    "subtask": false,
+                    "scope": {
+                        "type": "PROJECT",
+                        "project": {
+                            "id": "10000"
+                        }
+                    }
+                },
+                {
+                    "self": "https://hamisht.atlassian.net/rest/api/3/issuetype/10002",
+                    "id": "10002",
+                    "description": "A collection of related bugs, stories, and tasks.",
+                    "iconUrl": "https://hamisht.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+                    "name": "Epic",
+                    "untranslatedName": "Epic",
+                    "subtask": false,
+                    "scope": {
+                        "type": "PROJECT",
+                        "project": {
+                            "id": "10000"
+                        }
+                    }
+                },
+                {
+                    "self": "https://hamisht.atlassian.net/rest/api/3/issuetype/10003",
+                    "id": "10003",
+                    "description": "Subtasks track small pieces of work that are part of a larger task.",
+                    "iconUrl": "https://hamisht.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+                    "name": "Subtask",
+                    "untranslatedName": "Subtask",
+                    "subtask": true,
+                    "scope": {
+                        "type": "PROJECT",
+                        "project": {
+                            "id": "10000"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
